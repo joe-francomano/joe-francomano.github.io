@@ -1,30 +1,29 @@
-/* 
 
-
-
-
-
-*/  header {
-    text-align: center; 
+.heading {
     background-color: black;
     color: bisque;
-   
+    padding-bottom: 25px;
+}
+
+.row {
+    text-align: center;
 }
 
 h1 {
     font-family: "Oswald", sans-serif;
     font-size: 3.8em;
+    text-align: center;
 } 
 
 h2 { 
     font-family: "Oswald", sans-serif;
     font-size: 2.4em;
+    text-align: left;
 
 } 
 
 main {
     font-family: "Playfair Display", serif;
-    background-color: bisque; 
 
 } 
 
@@ -37,3 +36,51 @@ h3 {
     background-color: black; 
     font-family: "Playfair Display", serif;
  }
+
+.bio {
+    background-color: bisque;
+
+}
+
+ .resume {
+    background-color: whitesmoke;
+ } 
+
+ .clips {
+    background-color: bisque;
+
+ } 
+
+#profile {
+    max-width: 200px;
+    max-height: 300px; 
+    text-align: left;
+} 
+
+a:link {
+    color: #33B2FF;
+} 
+
+#contact-left {
+    text-align: left;
+}
+
+#contact-right {
+    text-align: right;
+} 
+
+.profile-pic {
+    max-height: 300px;
+    max-width: 400;
+    border-radius: 50%;
+}
+
+.maryland-day {
+    max-height: 175px;
+    max-width: 275px
+}
+
+.dbk { 
+    max-height: 200px;
+    max-width: 200px;
+}
