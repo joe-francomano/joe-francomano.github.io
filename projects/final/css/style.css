@@ -1,0 +1,62 @@
+
+body {
+    background-color: #FFEA8B;
+}
+header { 
+background-image: url(https://umd-today.transforms.svdcdn.com/production/hero/Aerials_CollegePark_SouthernGateway_072021_JC_1920x1080-1.jpg?w=1920&h=1080&auto=compress%2Cformat&fit=crop&dm=1631553594&s=44aab2814b452ca40035d9e3ca65b57b);
+/* I couldn't figure out how to implement this background image through my photos, and I also couldn't figure out how to implement the background image in HTML, so I found this way online via browserstack.com */
+    background-size: cover;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-weight: 100;
+ } 
+
+ .header {
+    padding: 6% 5% 24% 5%;
+    font-family: "Merriweather", serif;       
+    color: white;
+    text-align: center;
+ } 
+
+h1 {
+    font-size: 450%;
+}
+
+h2 {
+    font-size: 300%;
+    padding-bottom: 150px;
+}
+
+.credit {
+    font-size: 60%;
+} 
+
+main { 
+    padding: 0 20%;
+    font-family:"Roboto", sans-serif;
+}  
+
+.center {
+    display: block;
+    margin-left: auto; 
+    margin-right: auto;
+    max-width: 50%;
+    max-height: 50%;
+} 
+
+.enrollment-chart,
+.unit-chart
+ {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+footer {
+    background-color: black;
+    background-size: cover;
+    color:  #FFEA8B;
+}
